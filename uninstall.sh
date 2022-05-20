@@ -12,7 +12,6 @@ systemctl disable clear-blockchain.timer
 systemctl disable cpu-check.timer
 systemctl disable external-ip-check.timer
 systemctl disable fastsync-check.timer
-systemctl disable gps-check.timer
 systemctl disable helium-status-check.timer
 systemctl disable infoheight-check.timer
 systemctl disable local-ip-check.timer
@@ -25,7 +24,6 @@ systemctl disable pf-check.timer
 systemctl disable pf-service-check.timer
 systemctl disable pubkeys-check.timer
 systemctl disable reboot-check.timer
-systemctl disable sn-check.timer
 systemctl disable temp-check.timer
 systemctl disable update-check.timer
 systemctl disable update-dashboard-check.timer
@@ -69,8 +67,6 @@ rm -rf /etc/systemd/system/pubkeys-check.service
 rm -rf /etc/systemd/system/pubkeys-check.timer
 rm -rf /etc/systemd/system/reboot-check.service
 rm -rf /etc/systemd/system/reboot-check.timer
-rm -rf /etc/systemd/system/sn-check.service
-rm -rf /etc/systemd/system/sn-check.timer
 rm -rf /etc/systemd/system/temp-check.service
 rm -rf /etc/systemd/system/temp-check.timer
 rm -rf /etc/systemd/system/update-check.service
