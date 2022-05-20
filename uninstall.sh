@@ -45,8 +45,6 @@ rm -rf /etc/systemd/system/external-ip-check.service
 rm -rf /etc/systemd/system/external-ip-check.timer
 rm -rf /etc/systemd/system/fastsync-check.service
 rm -rf /etc/systemd/system/fastsync-check.timer
-rm -rf /etc/systemd/system/gps-check.service
-rm -rf /etc/systemd/system/gps-check.timer
 rm -rf /etc/systemd/system/helium-status-check.service
 rm -rf /etc/systemd/system/helium-status-check.timer
 rm -rf /etc/systemd/system/infoheight-check.service
