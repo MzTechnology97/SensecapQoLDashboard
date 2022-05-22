@@ -13,7 +13,7 @@ E stato aggiunta l'analisi dei log di https://github.com/inigoflores/helium-mine
 
 1. Find the internal IP address of your Pisces miner.
 2. Use the following link, replacing __YOURIP__ with the IP address of your miner:
-  - http://__YOURIP__/action.php?action=shell&cmd=wget https://raw.githubusercontent.com/MzTechnology97/PiscesQoLDashboard_log/main/install.sh -O - | sudo bash
+  - http://__YOURIP__/action.php?action=shell&cmd=wget https://raw.githubusercontent.com/MzTechnology97/SensecapQoLDashboard/main/install.sh -O - | sudo bash
 3. Log in at https://__YOURIP__
   - Username: admin
   - Password: admin
@@ -29,7 +29,7 @@ As of v0.1.1, the dashboard now has an updater.  If you are running version v0.1
 
 1. Log in via SSH (either PuTTY or click start > type "cmd" and press enter, then type "ssh admin@your-miner-ip").
 2. Run the following commands:
-   - wget https://raw.githubusercontent.com/MzTechnology97/PiscesQoLDashboard_log/main/update.sh -O - | sudo bash
+   - wget https://raw.githubusercontent.com/MzTechnology97/SensecapQoLDashboard/main/update.sh -O - | sudo bash
 
 ## Removal Instructions ##
 
